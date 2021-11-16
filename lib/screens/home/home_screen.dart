@@ -23,7 +23,7 @@ class HomePage extends StatelessWidget {
       ),
       actions: <Widget>[
         Padding(
-          padding: const EdgeInsets.all(4.0),
+          padding: const EdgeInsets.all(8.0),
           child: Ink(
             decoration: ShapeDecoration(
               color: Color(0xffff4848),
@@ -31,16 +31,17 @@ class HomePage extends StatelessWidget {
                   borderRadius: BorderRadius.circular(12.0)),
             ),
             child: IconButton(
-                icon: Icon(
-                  Icons.card_travel,
-                  color: Colors.white,
-                  size: 20,
-                ),
-                onPressed: () {}),
+              icon: Icon(
+                Icons.card_travel,
+                color: Colors.white,
+                size: 20,
+              ),
+              onPressed: () {},
+            ),
           ),
         ),
         SizedBox(
-          width: 10,
+          width: 5,
         ),
       ],
     );
