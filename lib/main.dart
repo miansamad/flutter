@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:japfood/screens/checkout/checkout_screen.dart';
 import 'package:japfood/screens/details/details_screen.dart';
 import 'package:japfood/screens/home/home_screen.dart';
 
@@ -17,7 +18,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       // home: HomePage(),
-      home: DetailsScreen(),
+      // home: DetailsScreen(),
+      home: CheckoutScreen(),
     );
   }
 }
